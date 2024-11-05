@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+
+#main{
+    margin: auto;
+    padding: 20px;
+    background: gray;
+    width: 900px;
+    /* border-style: solid; 
+    border-color: red;
+    border-width: 2px; */    
+}
+
+#navigation{
+
+}
+
+#header{
+
+}
+
+#footer{
+
+}
+
+
+

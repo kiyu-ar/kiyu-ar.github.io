@@ -1,12 +1,12 @@
 html, body{
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 body{
     margin: 0px;
     padding: 0px;
-    background: black;
+    /* background: black; */
 }
 
 #main{
@@ -20,16 +20,67 @@ body{
 }
 
 #navigation{
-
+    position: sticky;
+    top: 5px;
+    overflow: hidden;
 }
 
 #header{
 
 }
 
+#content{
+    height: 2000px;
+}
+
 #footer{
 
 }
 
+.parallax1, .parallax2, .parallax3{
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.parallax1{
+    background-image: url("../img/pic1.jpg");
+    min-height: 100%;
+}
 
+.parallax2{
+    background-image: url("../img/pic2.jpg");
+    min-height: 400px;
+}
+
+.parallax3{
+    background-image: url("../img/pic1.jpg");
+    min-height: 100%;
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
